@@ -53,6 +53,8 @@ section {
   padding: 30px;
   margin-top: 20px;
   box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+  width: 50%;
+  margin: 25px auto;
 }
 
 /* Estilos para el encabezado */
