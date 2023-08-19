@@ -1,0 +1,147 @@
+<!DOCTYPE html>
+<html lang="es">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Menú de Ejercicios</title>
+    <link rel="stylesheet" href="styles.css" />
+    <script defer src="scripts.js"></script>
+  </head>
+  <body>
+    <h1>Menú de Ejercicios</h1>
+    <ul>
+      <li><a href="#ejercicio-1">Ejercicio 1</a></li>
+      <li><a href="#ejercicio-2">Ejercicio 2</a></li>
+      <li><a href="#ejercicio-3">Ejercicio 3</a></li>
+      <li><a href="#ejercicio-4">Ejercicio 4</a></li>
+      <li><a href="#ejercicio-5">Ejercicio 5</a></li>
+      <li><a href="#ejercicio-6">Ejercicio 6</a></li>
+      <li><a href="#ejercicio-7">Ejercicio 7</a></li>
+      <li><a href="#ejercicio-8">Ejercicio 8</a></li>
+      <li><a href="#ejercicio-9">Ejercicio 9</a></li>
+      <li><a href="#ejercicio-10">Ejercicio 10</a></li>
+    </ul>
+
+    <!-- Ejercicio 1 -->
+    <section id="ejercicio-1">
+      <h3>IMC (ïndice de masa corporal)</h3>
+      <form>
+        <label for="peso">Peso (kg)</label>
+        <input type="number" name="peso" id="peso" />
+        <label for="altura">Altura (m)</label>
+        <input type="number" name="altura" id="altura" />
+        <button id="calcular-bmi">Calcular</button>
+      </form>
+      <p id="resultado-bmi"></p>
+    </section>
+
+    <!-- Ejercicio 2 -->
+    <section id="ejercicio-2">
+      <h3>Número de Likes</h3>
+      <form>
+        <label for="likes">Likes</label>
+        <input type="number" name="likes" id="likes" />
+        <button id="calcular-likes">Calcular</button>
+      </form>
+      <p id="resultado-likes"></p>
+    </section>
+
+    <!-- Ejercicio 3 -->
+    <section id="ejercicio-3">
+      <h3>Contraseña Válida</h3>
+      <form>
+        <label for="usuario">Usuario</label>
+        <input type="text" name="usuario" id="usuario" />
+        <label for="contrasena">Contraseña</label>
+        <input type="password" name="contrasena" id="contrasena" />
+        <button id="validar-datos">Validar</button>
+      </form>
+      <p id="resultado-validacion"></p>
+    </section>
+
+    <!-- Ejercicio 4 -->
+    <section id="ejercicio-4">
+      <h3>Calculo de impuestos</h3>
+      <form>
+        <label for="edad">Edad</label>
+        <input type="number" name="edad" id="edad" />
+        <label for="ingresos">Ingresos</label>
+        <input type="number" name="ingresos" id="ingresos" />
+        <button id="calcular-impuestos">Calcular</button>
+      </form>
+      <p id="resultado-impuestos"></p>
+    </section>
+
+    <!-- Ejercicio 5 -->
+    <section id="ejercicio-5">
+      <h3>Imprimir un arreglo</h3>
+      <form>
+        <label for="arreglo">Arreglo</label>
+        <input type="text" name="arreglo" id="arreglo-imprimir" />
+        <button id="imprimir-arreglo">Imprimir</button>
+      </form>
+      <ul id="resultado-arreglo-imprimir"></ul>
+    </section>
+
+    <!-- Ejercicio 6 -->
+    <section id="ejercicio-6">
+      <h3>Numero de caracteres</h3>
+      <form>
+        <label for="texto">Texto</label>
+        <input type="text" name="texto" id="texto" />
+        <label for="caracter">Caracter</label>
+        <input type="text" name="caracter" id="caracter" />
+        <button id="calcular-caracteres">Calcular</button>
+      </form>
+      <p id="resultado-caracteres"></p>
+    </section>
+
+    <!-- Ejercicio 7 -->
+    <section id="ejercicio-7">
+      <h3>Sumar Arreglo</h3>
+      <form>
+        <label for="arreglo">Arreglo</label>
+        <input type="text" name="arreglo" id="arreglo-sumar" />
+        <button id="sumar-arreglo">Sumar</button>
+      </form>
+      <p id="resultado-arreglo-sumar"></p>
+    </section>
+
+    <!-- Ejercicio 8 -->
+    <section id="ejercicio-8">
+      <h3>Multiplicar Arreglo</h3>
+      <form>
+        <label for="arreglo">Arreglo</label>
+        <input type="text" name="arreglo" id="arreglo-multiplicar" />
+        <button id="multiplicar-arreglo">Multiplicar</button>
+      </form>
+      <p id="resultado-arreglo-multiplicar"></p>
+    </section>
+
+    <!-- Ejercicio 9 -->
+    <section id="ejercicio-9">
+      <h3>Sumar arreglo entre rango</h3>
+      <form>
+        <label for="arreglo">Arreglo</label>
+        <input type="text" name="arreglo" id="arreglo-sumar-rango" />
+        <label for="inicio">Inicio</label>
+        <input type="number" name="inicio" id="inicio" />
+        <label for="fin">Fin</label>
+        <input type="number" name="fin" id="fin" />
+        <button id="sumar-arreglo-rango">Sumar</button>
+      </form>
+      <p id="resultado-arreglo-sumar-rango"></p>
+    </section>
+
+    <!-- Ejercicio 10 -->
+    <section id="ejercicio-10">
+      <h3>Encontrar el número máximo</h3>
+      <form>
+        <label for="arreglo">Arreglo</label>
+        <input type="text" name="arreglo" id="arreglo-maximo" />
+        <button id="encontrar-maximo">Encontrar</button>
+      </form>
+      <p id="resultado-arreglo-maximo"></p>
+    </section>
+  </body>
+</html>
